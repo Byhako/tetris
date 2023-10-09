@@ -4,10 +4,22 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Tetris</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      
+      <aside>
+        <h2>El mejor tetris del mundo.</h2>
+        <p class="score">Score: <span class="points"></span></p>
+        <button type="button">Reset</button>
+      </aside>
+      
+      <div class="content_canvas">
+        <p id="game_over">Game Over</p>
+        <canvas></canvas>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
